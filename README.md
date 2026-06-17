@@ -28,12 +28,12 @@ Key fields analyzed:
 ### Complaint Volume by Type
 
 Water System complaints were the most common DEP-related issue, followed by Noise and Sewer complaints. Together, these categories accounted for the majority of service requests.
-![Requests by Complaint Type](requests_by_complaint_type.png)
+![Requests by Complaint Type](total_requests by complaint_type.png)
 
 ### Requests by Borough
 
 Brooklyn recorded the highest number of requests (29,910), followed by Queens (27,570) and Manhattan (19,877). Staten Island generated the fewest requests.
-![Requests by Borough](requests_by_borough.png)
+![Requests by Borough](total_requests by borough.png)
 
 ### Top Complaint by Borough
 
@@ -70,7 +70,7 @@ Queens had the longest average resolution time, while Staten Island had the shor
 | 5    | Queens        |
 
 Ranking was based on average complaint resolution time for closed requests.
-![Service Ranking](service_ranking.png)
+![Service Ranking](service_rank by borough.png)
 
 ### Request Status
 
