@@ -1,6 +1,6 @@
 # NYC 311 DEP Service Request Analysis
 
-## Overview
+## Project Overview
 
 This project analyzes New York City 311 service requests related to the Department of Environmental Protection (DEP) using SQL in Google BigQuery. The goal was to identify complaint patterns, evaluate service performance, and compare operational efficiency across NYC boroughs.
 
@@ -13,27 +13,28 @@ This project analyzes New York City 311 service requests related to the Departme
 
 ## Dataset
 
-NYC 311 Service Requests (DEP-related complaints)
+NYC 311 Service Requests (Department of Environmental Protection complaints)
+
+Analysis period: January 2026 – June 2026
 
 Key fields analyzed:
-
-* Complaint Type
-* Borough
-* Status
-* Created Date
-* Closed Date
+- Complaint Type
+- Borough
+- Status
+- Created Date
+- Closed Date
 
 ## Analysis
 
 ### Complaint Volume by Type
 
 Water System complaints were the most common DEP-related issue, followed by Noise and Sewer complaints. Together, these categories accounted for the majority of service requests.
-![Requests by Complaint Type](total_requests by complaint_type.png)
+![Requests by Complaint Type](total_requests_by_complaint_type.png)
 
 ### Requests by Borough
 
 Brooklyn recorded the highest number of requests (29,910), followed by Queens (27,570) and Manhattan (19,877). Staten Island generated the fewest requests.
-![Requests by Borough](total_requests by borough.png)
+![Requests by Borough](total_requests_by_borough.png)
 
 ### Top Complaint by Borough
 
@@ -70,7 +71,7 @@ Queens had the longest average resolution time, while Staten Island had the shor
 | 5    | Queens        |
 
 Ranking was based on average complaint resolution time for closed requests.
-![Service Ranking](service_rank by borough.png)
+![Service Ranking](service_rank_by_borough.png)
 
 ### Request Status
 
